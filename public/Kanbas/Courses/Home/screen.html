@@ -90,10 +90,10 @@
               </ul>
             </div>
           </header>
-          <div class = "buttons">
-            <button>Collapse All</button>
-            <button>View Progress</button>
-            <select id="publish-all">
+          <div class = "buttons button_spacing">
+            <button class="btn btn-secondary">Collapse All</button>
+            <button class="btn btn-secondary">View Progress</button>
+            <select class="btn btn-secondary" id="publish-all">
               <option selected value="publish-all">publish-all</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -176,26 +176,19 @@
             </ul>
         </ul>
       </div>
-      <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
+      <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px;">
         <h3>Course Status</h3>
         <h1>Course Status</h1>
-        <button>Unpublish</button>
-        <button>Published</button>
-        <ul>
-          <li>
-            <a href="#"> Import Existing Content</a>
-          </li>
-          <li>
-            <a href="#"> Import From Commons</a>
-          </li>
-          <li><a href="#"> 123</a></li>
-          <li>
-            <a href="#"> 1233</a>
-          </li>
-          <li>
-            <a href="#"> 12333</a>
-          </li>
-        </ul>
+        <div class="d-flex justify-content-between mb-2">
+          <button class="button_spacing btn btn-secondary" style="width: 48%;">Unpublish</button>
+          <button class="button_spacing btn btn-success" style="width: 48%;">Published</button>
+        </div>
+        <div class="button_spacing">
+          <button class="btn btn-secondary my-2 d-block" style="width: 100%;"> Import Existing Content</button>
+          <button class="btn btn-secondary my-2 d-block" style="width: 100%;"> Import From Commons</button>
+          <button class="btn btn-secondary my-2 d-block" style="width: 100%;"> 123</button>
+          <button class="btn btn-secondary my-2 d-block" style="width: 100%;"> 1233</button>
+          <button class="btn btn-secondary my-2 d-block" style="width: 100%;"> 12333</button>
         <h1>Coming Up</h1>
         <a href="#"> 12333</a>
         <ul>

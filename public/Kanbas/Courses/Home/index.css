@@ -47,6 +47,10 @@
   text-align: right;
   margin-right: 10px;
 }
+
+.button_spacing {
+  padding: 5px;
+}
 .dropdown-menu {
   position: fixed;
   top: 0;
